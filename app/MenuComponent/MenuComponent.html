@@ -1,0 +1,10 @@
+<!-- меню в виде кнопок -->
+<div class="panel panel-default">
+    <div class="panel-body">
+
+        <div class="btn-group" role="group" ng-repeat="item in $ctrl.menuItems">
+                <a class="btn btn-default" data-ui-sref="{{item.key}}">{{item.text}}</a>        
+        </div>
+
+    </div>
+</div>
